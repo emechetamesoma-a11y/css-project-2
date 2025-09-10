@@ -1,0 +1,43 @@
+/* Hero section styling */
+    .hero {
+      background: url("https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=1600&q=80") no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      position: relative;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      padding: 20px 0;
+    }
+    footer a {
+      color: #ccc;
+      margin: 0 10px;
+      font-size: 1.2rem;
+    }
+    footer a:hover {
+      color: #fff;
+    } 
+
+
+
+
+
+
+
+
+
